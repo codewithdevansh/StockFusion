@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div className='container column mt-5 ' style={{backgroundColor:'white'}}>
+        <div className='container column mt-5 ' style={{backgroundColor:'white', width:'100%'}}>
             <div className='row'>
                 {/* <div className='col-2'></div> */}
                 <div className='col-3'>
@@ -55,7 +55,7 @@ function Footer() {
                 <p style={{fontSize:'65%'}}>"Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your stock brokers. Receive information of your transactions directly from Exchange on your mobile/email at the end of the day. Issued in the interest of investors. KYC is one time exercise while dealing in securities markets - once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo the same process again when you approach another intermediary." Dear Investor, if you are subscribing to an IPO, there is no need to issue a cheque. Please write the Bank account number and sign the IPO application form to authorize your bank to make payment in case of allotment. In case of non allotment the funds will remain in your bank account. As a business we don't give stock tips, and have not authorized anyone to trade on behalf of others. If you find anyone claiming to be part of Zerodha and offering such services, please create a ticket here.</p>
 
             </div>
-            <div className='row' style={{alignItems:'center', justifyContent:'center'}}>
+            <div className='row mt-5' style={{alignItems:'center', justifyContent:'center'}}>
                 <p className='col-1' style={{fontSize:'75%'}}>NSE</p>
                 <p className='col-1' style={{fontSize:'75%'}}>BSE</p>
                 <p className='col-1' style={{fontSize:'75%'}}>MCX</p>
