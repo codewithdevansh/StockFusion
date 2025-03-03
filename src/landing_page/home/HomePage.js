@@ -6,6 +6,7 @@ import Education from './Education'
 import OpenAccount from '../OpenAccount'
 import NavBar from '../NavBar'
 import Footer from '../Footer'
+import Stats from './Stats'
 
 function HomePage() {
     return (
@@ -13,6 +14,7 @@ function HomePage() {
             <NavBar/>
             <Hero />
             <Awards />
+            <Stats />
             <Pricing />
             <Education />
             <OpenAccount />

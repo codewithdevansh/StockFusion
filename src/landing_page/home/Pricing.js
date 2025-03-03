@@ -2,28 +2,34 @@ import React from "react";
 
 function Pricing() {
   return (
-    <div className="container p-5">
-      <div className="row p-5">
-        <div className="col-6 p-5" style={{width:'45%'}}>
-          <h1 className="fs-2">Trust with confidence</h1>
-          <h2 className="fs-4 mt-5">Customer-first always</h2>
-          <p className="text-muted">That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.</p>
-          <h2 className="fs-4 mt-5">No spam or gimmicks</h2>
-          <p className="text-muted">No gimmicks, spam, "gamification", or annoying push notifications. High quality apps that you use at your pace, the way you like.</p>
-          <h2 className="fs-4 mt-5">The Zerodha universe</h2>
-          <p className="text-muted">Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs.</p>
-          <h2 className="fs-4 mt-5">Do better with money</h2>
-          <p className="text-muted">With initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money.</p>
+    <div className="container">
+      <div className="row">
+        <div className="col-4">
+          <h1 className="mb-3 fs-2">Unbeatable pricing</h1>
+          <p>
+            We pioneered the concept of discount broking and price transparency
+            in India. Flat fees and no hidden charges.
+          </p>
+          <a href="" style={{ textDecoration: "none" }}>
+            See Pricing{" "}
+            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+          </a>
         </div>
-        <div className="col-6">
-          <img
-            src="media/images/ecosystem.png"
-            alt="ecosystem"
-            style={{ width: "110%", height:'86.5%' }}
-          />
-          <div className='text-center mt-3'>
-          <a href='' className="mx-5">Explore our products <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-          <a href=''>Try Kite demo <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+        <div className="col-2"></div>
+        <div className="col-6  mb-5">
+          <div className="row text-center">
+            <div className="col p-3 border">
+              <h1 className="mb-3">₹0</h1>
+              <p>
+                Free equity delivery and
+                <br />
+                direct mutual funds
+              </p>
+            </div>
+            <div className="col p-3 border">
+              <h1 className="mb-3">₹20</h1>
+              <p>Intraday and F&O</p>
+            </div>
           </div>
         </div>
       </div>
